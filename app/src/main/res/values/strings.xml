@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">My Application</string>
+
+    <string name="data_cell_text">Data</string>
+    <string name="settings">Settings</string>
+</resources>

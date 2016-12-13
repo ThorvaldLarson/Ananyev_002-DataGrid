@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.training.task.myapplication.MainActivity"
+    style="@style/MainLinearLayout"
+    >
+
+    <GridLayout
+        android:id="@+id/container"
+        style="@style/Container"
+        />
+
+    <LinearLayout
+        style="@style/ButtonLinearLayout"
+        >
+
+        <ImageButton
+            android:id="@+id/dial"
+            style="@style/ImageButton"
+            android:src="@drawable/dialer"
+            />
+
+        <Button
+            android:id="@+id/empty"
+            style="@style/Button"
+            android:text="App"
+
+            />
+
+        <ImageButton
+            android:id="@+id/sms"
+            style="@style/ImageButton"
+            android:src="@drawable/sms"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>
